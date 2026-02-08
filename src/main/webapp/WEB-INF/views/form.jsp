@@ -5,7 +5,7 @@
 </head>
 <body>
 <h2>User Form</h2>
-
+<p style="color:red;">${error}</p>
 <form action="<%= request.getContextPath() %>/submit" method="post">
     <label>Full Name:</label>
     <input type="text" name="name" required />
