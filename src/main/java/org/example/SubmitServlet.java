@@ -23,7 +23,7 @@ public class SubmitServlet extends HttpServlet {
         }
    // New: Registered user check
         if (!UserStore.exists(name)) {
-            req.setAttribute("error", "This user is not registered.");
+            req.setAttribute("error", "This user is not registered!");
             req.setAttribute("prevName", name.trim());
             req.setAttribute("prevAge", age.trim());
             req.getRequestDispatcher("/WEB-INF/views/form.jsp").forward(req, resp);
