@@ -6,6 +6,7 @@
 <body>
 <h2>User Form</h2>
 <p style="color:red;">${error}</p>
+<p style="color:green;">${message}</p>
 <form action="<%= request.getContextPath() %>/submit" method="post">
     <label>Full Name:</label>
     <input type="text" name="name" required />
@@ -18,6 +19,12 @@
     <button type="submit">Submit</button>
 </form>
 
+<form action="<%= request.getContextPath() %>/register" method="post" style="margin-top:12px;">
+    <label>Full Name (for registration):</label>
+    <input type="text" name="name" required />
+    <br/><br/>
+    <button type="submit">Register New User</button>
+</form>
 <p>
     <a href="<%= request.getContextPath() %>/hello">HelloServlet (GET)</a>
 </p>
