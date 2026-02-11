@@ -16,12 +16,6 @@ public class UsersServlet extends HttpServlet {
 
         HttpSession session = req.getSession(false);
 
-        if (session == null || session.getAttribute("username") == null) {
-            // Not logged in -> go to login page
-            resp.sendRedirect(req.getContextPath() + "/login-page");
-            return;
-        }
-
         String username = (String) session.getAttribute("username");
         req.setAttribute("username", username);
 
