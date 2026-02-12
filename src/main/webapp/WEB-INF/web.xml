@@ -112,8 +112,4 @@
         <url-pattern>/submit</url-pattern>
     </filter-mapping>
 
-    <filter-mapping>
-        <filter-name>AuthFilter</filter-name>
-        <url-pattern>/register</url-pattern>
-    </filter-mapping>
 </web-app>
