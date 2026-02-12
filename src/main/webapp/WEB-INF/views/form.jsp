@@ -18,13 +18,9 @@
 
     <button type="submit">Submit</button>
 </form>
-
-<form action="<%= request.getContextPath() %>/register" method="post" style="margin-top:12px;">
-    <label>Full Name (for registration):</label>
-    <input type="text" name="name" required />
-    <br/><br/>
-    <button type="submit">Register New User</button>
-</form>
+<p style="margin-top:12px;">
+    <a href="<%= request.getContextPath() %>/register">Go to Register Page</a>
+</p>
 <p>
     <a href="<%= request.getContextPath() %>/hello">HelloServlet (GET)</a>
 </p>
