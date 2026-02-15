@@ -3,3 +3,5 @@
 <img width="1287" height="293" alt="Projectphoto" src="https://github.com/user-attachments/assets/0a8784bf-658d-4fcb-b178-115ea92c6cc4" />
 <img width="1144" height="430" alt="Ekran Resmi 2026-02-11 01 55 06" src="https://github.com/user-attachments/assets/af4ad947-cfc1-4d12-a4f5-1c3fafa0ac20" />
 <img width="1144" height="430" alt="Ekran Resmi 2026-02-11 01 55 51" src="https://github.com/user-attachments/assets/03c62328-76a3-4b1e-ba18-1a142d006ddd" />
+<img width="1144" height="430" alt="Ekran Resmi 2026-02-10 23 31 29" src="https://github.com/user-attachments/assets/8967322c-90ab-434f-b9a3-514b433a59ca" />
+<img width="1064" height="350" alt="Ekran Resmi 2026-02-12 22 02 21" src="https://github.com/user-attachments/assets/cf0e766f-c823-4d76-bdbf-467c97a810a8" />
